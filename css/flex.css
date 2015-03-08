@@ -1,0 +1,391 @@
+@import url("fonts.css");
+
+@font-face{
+	font-family: 'AmaticSC';
+	font-weight: normal;
+	src: url("../fonts/AmaticSC-Regular.ttf");
+}
+
+@font-face{
+	font-family: 'Dosis';
+	font-weight: normal;
+	src: url("../fonts/Dosis-Regular.ttf");
+}
+
+@charset "utf-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: none;
+	border-radius: none;
+	font-size: 100%;
+	list-style: none;
+	font-style: normal;
+	font-weight: normal;
+	font-family:sans-serif;
+	vertical-align: baseline;
+	text-align: justify;
+	color:#000;
+	text-decoration: none;
+	font-family: 'Dosis';
+}
+
+h1,h2,h3,h4,h5{font-family: 'AmaticSC';}
+
+@media only screen and (min-width: 1280px) {
+	.desL-1-12,.desL-2-12,.desL-3-12,.desL-4-12,.desL-5-12,.desL-6-12,.desL-7-12,.desL-8-12,.desL-9-12,.desL-10-12,.desL-11-12,.desL-12-12,
+	.desL-1-11,.desL-2-11,.desL-3-11,.desL-4-11,.desL-5-11,.desL-6-11,.desL-7-11,.desL-8-11,.desL-10-11,.desL-11-11,
+	.desL-1-10,.desL-2-10,.desL-3-10,.desL-4-10,.desL-5-10,.desL-6-10,.desL-7-10,.desL-8-10,.desL-9-10,.desL-10-10,
+	.desL-1-9,.desL-2-9.desL-3-9,.desL-4-9,.desL-5-9,.desL-6-9,.desL-7-9,.desL-8-9,.desL-9-9,
+	.desL-1-8,.desL-2-8,.desL-3-8,.desL-4-8,.desL-5-8,.desL-6-8,.desL-6-8,.desL-7-8,.desL-8-8,
+	.desL-1-7,.desL-2-7.desL-3-7,.desL-4-7,.desL-5-7.desL-6-7,.desL-7-7,
+	.desL-1-6,.desL-2-6,.desL-3-6,.desL-4-6,.desL-5-6,.desL-6-6,
+	.desL-1-5,.desL-2-5,.desL-3-5,.desL-4-5,.desL-5-5,
+	.desL-1-4,.desL-2-4,.desL-3-4,.desL-4-4,
+	.desL-1-3,.desL-2-3,.desL-3-3,
+	.desL-1-2,.desL-2-2,
+	.desL-1-1{
+		display: inline-block;
+		color: #333;
+		margin-right: 1%;
+		margin-left: 1%;
+		float: left;
+		max-width: 100%;
+		font-size: 1em;
+	}
+
+	.desL-12-12,.desL-11-11,.desL-10-10,.desL-9-9,.desL-8-8,.desL-7-7,.desL-6-6,.desL-5-5,.desL-4-4,.desL-3-3,.desL-2-2,.desL-1-1{width: 98%;}
+	.desL-9-12,.desL-6-8,.desL-3-4{width: 73%;}
+	.desL-6-12,.desL-5-10,.desL-4-8,.desL-3-6,.desL-2-4,.desL-1-2{width: 48%;}
+	.desL-3-12,.desL-2-8,.desL-1-4{width: 23%;}
+	.desL-11-12{width: 89.666%;}.desL-10-12,.desL-5-6{width: 81.333%;}
+	.desL-8-12,.desL-2-3{width:64.666%;}.desL-7-12{width: 56.333%;}
+	.desL-5-12{width: 39.666%;}.desL-4-12,.desL-2-6,.desL-3-9,.desL-1-3{width:31.333%;}
+	.desL-2-12,.desL-1-6{width: 14.666%;}.desL-1-12{width: 6.333%;}
+	.desL-10-11{width: 88.909%;}.desL-9-11{width: 79.818%;}
+	.desL-8-11{width: 70.727%;}.desL-7-11{width: 61.636%;}
+	.desL-6-11{width: 52.545%;}.desL-5-11{width: 43.454%;}
+	.desL-4-11{width: 34.363%;}.desL-3-11{width: 25.272%;}
+	.desL-2-11{width: 16.181%;}.desL-1-11{width: 7.090%;}
+	.desL-9-10{width: 88%;}.desL-8-10,.desL-4-5{width: 78%;}
+	.desL-7-10{width: 68%;}.desL-6-10,.desL-3-5{width: 58%;}
+	.desL-4-10,.desL-2-5{width: 38%;}.desL-3-10{width: 28%;}
+	.desL-2-10,.desL-1-5{width: 18%;}
+	.desL-1-10{width: 8%;}
+	.desL-8-9{width: 86.888%;}.desL-7-9{width: 75.777%;}
+	.desL-6-9{width: 64.666%;}.desL-5-9{width: 53.555%;}
+	.desL-4-9{width: 42.444%;}.desL-2-9{width: 20.222%;}
+	.desL-1-9{width: 9.111%;}
+	.desL-7-8{width: 85.5%;}
+	.desL-5-8{width: 60.5%;}.desL-3-8{width: 35.5%;}
+	.desL-1-8{width: 10.5%;}
+	.desL-6-7{width: 83.714%;}.desL-5-7{width: 69.428%;}
+	.desL-4-7{width: 55.143%;}.desL-3-7{width: 40.857%;}
+	.desL-2-7{width: 26.571%;}.desL-1-7{width: 12.286%;}
+	.desL-4-6{width: 64.666%;}
+	
+	.puloL-12-12,.puloL-11-11,.puloL-10-10,.puloL-9-9,.puloL-8-8,.puloL-7-7,.puloL-6-6,.puloL-5-5,.puloL-4-4,.puloL-3-3,.puloL-2-2,.puloL-1-1{width: 98%;}
+	.puloL-9-12,.puloL-6-8,.puloL-3-4{margin-left: 75%;}
+	.puloL-6-12,.puloL-5-10,.puloL-4-8,.puloL-3-6,.puloL-2-4,.puloL-1-2{margin-left: 50%;}
+	.puloL-3-12,.puloL-2-8,.puloL-1-4{margin-left: 25%;}
+	.puloL-11-12{margin-left: 91.666%;}.puloL-10-12,.puloL-5-6{margin-left: 83.333%;}
+	.puloL-8-12,.puloL-2-3{margin-left:66.666%;}.puloL-7-12{margin-left: 58.333%;}
+	.puloL-5-12{margin-left: 41.666%;}.puloL-4-12,.puloL-2-6,.puloL-3-9,.puloL-1-3{margin-left:33.333%;}
+	.puloL-2-12,.puloL-1-6{margin-left: 16.666%;}.puloL-1-12{margin-left: 8.333%;}
+	.puloL-10-11{margin-left: 90.909%;}.puloL-9-11{margin-left: 81.818%;}
+	.puloL-8-11{margin-left: 72.727%;}.puloL-7-11{margin-left: 63.636%;}
+	.puloL-6-11{margin-left: 54.545%;}.puloL-5-11{margin-left: 45.454%;}
+	.puloL-4-11{margin-left: 36.363%;}.puloL-3-11{margin-left: 27.272%;}
+	.puloL-2-11{margin-left: 18.181%;}.puloL-1-11{margin-left: 9.090%;}
+	.puloL-9-10{margin-left: 90%;}.puloL-8-10,.puloL-4-5{margin-left: 80%;}
+	.puloL-7-10{margin-left: 70%;}.puloL-6-10,.puloL-3-5{margin-left: 60%;}
+	.puloL-4-10,.puloL-2-5{margin-left: 40%;}.puloL-3-10{margin-left: 30%;}
+	.puloL-2-10,.puloL-1-5{margin-left: 20%;}
+	.puloL-1-10{margin-left: 10%;}
+	.puloL-8-9{margin-left: 88.888%;}.puloL-7-9{margin-left: 77.777%;}
+	.puloL-6-9{margin-left: 66.666%;}.puloL-5-9{margin-left: 55.555%;}
+	.puloL-4-9{margin-left: 44.444%;}.puloL-2-9{margin-left: 22.222%;}
+	.puloL-1-9{margin-left: 11.111%;}
+	.puloL-7-8{margin-left: 87.5%;}
+	.puloL-5-8{margin-left: 62.5%;}.puloL-3-8{margin-left: 37.5%;}
+	.puloL-1-8{margin-left: 12.5%;}
+	.puloL-6-7{margin-left: 85.714%;}.puloL-5-7{margin-left: 71.428%;}
+	.puloL-4-7{margin-left: 57.143%;}.puloL-3-7{margin-left: 42.857%;}
+	.puloL-2-7{margin-left: 28.571%;}.puloL-1-7{margin-left: 14.286%;}
+	.puloL-4-6{margin-left: 66.666%;}    
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {	
+	.desk-visivel{display: block !important;}
+	.tablet-visivel, .sm-visivel{display: none !important;}
+	.navbar-menu{display: inline-block;}
+	.desM-1-12,.desM-2-12,.desM-3-12,.desM-4-12,.desM-5-12,.desM-6-12,.desM-7-12,.desM-8-12,.desM-9-12,.desM-10-12,.desM-11-12,.desM-12-12,
+	.desM-1-11,.desM-2-11,.desM-3-11,.desM-4-11,.desM-5-11,.desM-6-11,.desM-7-11,.desM-8-11,.desM-10-11,.desM-11-11,
+	.desM-1-10,.desM-2-10,.desM-3-10,.desM-4-10,.desM-5-10,.desM-6-10,.desM-7-10,.desM-8-10,.desM-9-10,.desM-10-10,
+	.desM-1-9,.desM-2-9.desM-3-9,.desM-4-9,.desM-5-9,.desM-6-9,.desM-7-9,.desM-8-9,.desM-9-9,
+	.desM-1-8,.desM-2-8,.desM-3-8,.desM-4-8,.desM-5-8,.desM-6-8,.desM-6-8,.desM-7-8,.desM-8-8,
+	.desM-1-7,.desM-2-7.desM-3-7,.desM-4-7,.desM-5-7.desM-6-7,.desM-7-7,
+	.desM-1-6,.desM-2-6,.desM-3-6,.desM-4-6,.desM-5-6,.desM-6-6,
+	.desM-1-5,.desM-2-5,.desM-3-5,.desM-4-5,.desM-5-5,
+	.desM-1-4,.desM-2-4,.desM-3-4,.desM-4-4,
+	.desM-1-3,.desM-2-3,.desM-3-3,
+	.desM-1-2,.desM-2-2,
+	.desM-1-1{
+		display: inline-block;
+		float: left !important;
+		margin-right: 1%;
+		margin-left: 1%;
+		max-width: 100%;
+		font-size: 1em;
+		float: left;
+	}
+
+	.desM-12-12,.desM-11-11,.desM-10-10,.desM-9-9,.desM-8-8,.desM-7-7,.desM-6-6,.desM-5-5,.desM-4-4,.desM-3-3,.desM-2-2,.desM-1-1{width: 98%;}
+	.desM-9-12,.desM-6-8,.desM-3-4{width: 73%;}
+	.desM-6-12,.desM-5-10,.desM-4-8,.desM-3-6,.desM-2-4,.desM-1-2{width: 48%;}
+	.desM-3-12,.desM-2-8,.desM-1-4{width: 23%;}
+	.desM-11-12{width: 89.666%;}.desM-10-12,.desM-5-6{width: 81.333%;}
+	.desM-8-12,.desM-2-3{width:64.666%;}.desM-7-12{width: 56.333%;}
+	.desM-5-12{width: 39.666%;}.desM-4-12,.desM-2-6,.desM-3-9,.desM-1-3{width:31.333%;}
+	.desM-2-12,.desM-1-6{width: 14.666%;}.desM-1-12{width: 6.333%;}
+	.desM-10-11{width: 88.909%;}.desM-9-11{width: 79.818%;}
+	.desM-8-11{width: 70.727%;}.desM-7-11{width: 61.636%;}
+	.desM-6-11{width: 52.545%;}.desM-5-11{width: 43.454%;}
+	.desM-4-11{width: 34.363%;}.desM-3-11{width: 25.272%;}
+	.desM-2-11{width: 16.181%;}.desM-1-11{width: 7.090%;}
+	.desM-9-10{width: 88%;}.desM-8-10,.desM-4-5{width: 78%;}
+	.desM-7-10{width: 68%;}.desM-6-10,.desM-3-5{width: 58%;}
+	.desM-4-10,.desM-2-5{width: 38%;}.desM-3-10{width: 28%;}
+	.desM-2-10,.desM-1-5{width: 18%;}
+	.desM-1-10{width: 8%;}
+	.desM-8-9{width: 86.888%;}.desM-7-9{width: 75.777%;}
+	.desM-6-9{width: 64.666%;}.desM-5-9{width: 53.555%;}
+	.desM-4-9{width: 42.444%;}.desM-2-9{width: 20.222%;}
+	.desM-1-9{width: 9.111%;}
+	.desM-7-8{width: 85.5%;}
+	.desM-5-8{width: 60.5%;}.desM-3-8{width: 35.5%;}
+	.desM-1-8{width: 10.5%;}
+	.desM-6-7{width: 83.714%;}.desM-5-7{width: 69.428%;}
+	.desM-4-7{width: 55.143%;}.desM-3-7{width: 40.857%;}
+	.desM-2-7{width: 26.571%;}.desM-1-7{width: 12.286%;}
+	.desM-4-6{width: 64.666%;}
+
+	.puloM-12-12,.puloM-11-11,.puloM-10-10,.puloM-9-9,.puloM-8-8,.puloM-7-7,.puloM-6-6,.puloM-5-5,.puloM-4-4,.puloM-3-3,.puloM-2-2,.puloM-1-1{width: 98%;}
+	.puloM-9-12,.puloM-6-8,.puloM-3-4{margin-left: 75%;}
+	.puloM-6-12,.puloM-5-10,.puloM-4-8,.puloM-3-6,.puloM-2-4,.puloM-1-2{margin-left: 50%;}
+	.puloM-3-12,.puloM-2-8,.puloM-1-4{margin-left: 25%;}
+	.puloM-11-12{margin-left: 91.666%;}.puloM-10-12,.puloM-5-6{margin-left: 83.333%;}
+	.puloM-8-12,.puloM-2-3{margin-left:66.666%;}.puloM-7-12{margin-left: 58.333%;}
+	.puloM-5-12{margin-left: 41.666%;}.puloM-4-12,.puloM-2-6,.puloM-3-9,.puloM-1-3{margin-left:33.333%;}
+	.puloM-2-12,.puloM-1-6{margin-left: 16.666%;}.puloM-1-12{margin-left: 8.333%;}
+	.puloM-10-11{margin-left: 90.909%;}.puloM-9-11{margin-left: 81.818%;}
+	.puloM-8-11{margin-left: 72.727%;}.puloM-7-11{margin-left: 63.636%;}
+	.puloM-6-11{margin-left: 54.545%;}.puloM-5-11{margin-left: 45.454%;}
+	.puloM-4-11{margin-left: 36.363%;}.puloM-3-11{margin-left: 27.272%;}
+	.puloM-2-11{margin-left: 18.181%;}.puloM-1-11{margin-left: 9.090%;}
+	.puloM-9-10{margin-left: 90%;}.puloM-8-10,.puloM-4-5{margin-left: 80%;}
+	.puloM-7-10{margin-left: 70%;}.puloM-6-10,.puloM-3-5{margin-left: 60%;}
+	.puloM-4-10,.puloM-2-5{margin-left: 40%;}.puloM-3-10{margin-left: 30%;}
+	.puloM-2-10,.puloM-1-5{margin-left: 20%;}
+	.puloM-1-10{margin-left: 10%;}
+	.puloM-8-9{margin-left: 88.888%;}.puloM-7-9{margin-left: 77.777%;}
+	.puloM-6-9{margin-left: 66.666%;}.puloM-5-9{margin-left: 55.555%;}
+	.puloM-4-9{margin-left: 44.444%;}.puloM-2-9{margin-left: 22.222%;}
+	.puloM-1-9{margin-left: 11.111%;}
+	.puloM-7-8{margin-left: 87.5%;}
+	.puloM-5-8{margin-left: 62.5%;}.puloM-3-8{margin-left: 37.5%;}
+	.puloM-1-8{margin-left: 12.5%;}
+	.puloM-6-7{margin-left: 85.714%;}.puloM-5-7{margin-left: 71.428%;}
+	.puloM-4-7{margin-left: 57.143%;}.puloM-3-7{margin-left: 42.857%;}
+	.puloM-2-7{margin-left: 28.571%;}.puloM-1-7{margin-left: 14.286%;}
+	.puloM-4-6{margin-left: 66.666%;}  
+}
+
+@media only screen and (max-width: 767px) and (min-width: 439px) {
+	.cabecalho{height: 100%;}
+	.btn-toggle{max-width: 50%;width:100%;margin: 0;display: block !important;}
+	.logo-menu{width: 60%;height: 60% !important;top: 20%;}
+	.desk-visivel{display: none !important;}
+	.tablet-visivel{display: block !important;}
+	.sm-visivel{display: none !important;}
+	.navbar-menu{display: none;}
+	.table-1-12,.table-2-12,.table-3-12,.table-4-12,.table-5-12,.table-6-12,.table-7-12,.table-8-12,.table-9-12,.table-10-12,.table-11-12,.table-12-12,
+	.table-1-11,.table-2-11,.table-3-11,.table-4-11,.table-5-11,.table-6-11,.table-7-11,.table-8-11,.table-10-11,.table-11-11,
+	.table-1-10,.table-2-10,.table-3-10,.table-4-10,.table-5-10,.table-6-10,.table-7-10,.table-8-10,.table-9-10,.table-10-10,
+	.table-1-9,.table-2-9.table-3-9,.table-4-9,.table-5-9,.table-6-9,.table-7-9,.table-8-9,.table-9-9,
+	.table-1-8,.table-2-8,.table-3-8,.table-4-8,.table-5-8,.table-6-8,.table-6-8,.table-7-8,.table-8-8,
+	.table-1-7,.table-2-7.table-3-7,.table-4-7,.table-5-7.table-6-7,.table-7-7,
+	.table-1-6,.table-2-6,.table-3-6,.table-4-6,.table-5-6,.table-6-6,
+	.table-1-5,.table-2-5,.table-3-5,.table-4-5,.table-5-5,
+	.table-1-4,.table-2-4,.table-3-4,.table-4-4,
+	.table-1-3,.table-2-3,.table-3-3,
+	.table-1-2,.table-2-2,
+	.table-1-1{
+		display: inline-block;
+		float: left !important;
+		margin-right: 1%;
+		margin-left: 1%;
+		max-width: 100%;
+		font-size: 1.4em;
+	}
+
+	.table-12-12,.table-11-11,.table-10-10,.table-9-9,.table-8-8,.table-7-7,.table-6-6,.table-5-5,.table-4-4,.table-3-3,.table-2-2,.table-1-1{width: 98%;}
+	.table-9-12,.table-6-8,.table-3-4{width: 73%;}
+	.table-6-12,.table-5-10,.table-4-8,.table-3-6,.table-2-4,.table-1-2{width: 48%;}
+	.table-3-12,.table-2-8,.table-1-4{width: 23%;}
+	.table-11-12{width: 89.666%;}.table-10-12,.table-5-6{width: 81.333%;}
+	.table-8-12,.table-2-3{width:64.666%;}.table-7-12{width: 56.333%;}
+	.table-5-12{width: 39.666%;}.table-4-12,.table-2-6,.table-3-9,.table-1-3{width:31.333%;}
+	.table-2-12,.table-1-6{width: 14.666%;}.table-1-12{width: 6.333%;}
+	.table-10-11{width: 88.909%;}.table-9-11{width: 79.818%;}
+	.table-8-11{width: 70.727%;}.table-7-11{width: 61.636%;}
+	.table-6-11{width: 52.545%;}.table-5-11{width: 43.454%;}
+	.table-4-11{width: 34.363%;}.table-3-11{width: 25.272%;}
+	.table-2-11{width: 16.181%;}.table-1-11{width: 7.090%;}
+	.table-9-10{width: 88%;}.table-8-10,.table-4-5{width: 78%;}
+	.table-7-10{width: 68%;}.table-6-10,.table-3-5{width: 58%;}
+	.table-4-10,.table-2-5{width: 38%;}.table-3-10{width: 28%;}
+	.table-2-10,.table-1-5{width: 18%;}
+	.table-1-10{width: 8%;}
+	.table-8-9{width: 86.888%;}.table-7-9{width: 75.777%;}
+	.table-6-9{width: 64.666%;}.table-5-9{width: 53.555%;}
+	.table-4-9{width: 42.444%;}.table-2-9{width: 20.222%;}
+	.table-1-9{width: 9.111%;}
+	.table-7-8{width: 85.5%;}
+	.table-5-8{width: 60.5%;}.table-3-8{width: 35.5%;}
+	.table-1-8{width: 10.5%;}
+	.table-6-7{width: 83.714%;}.table-5-7{width: 69.428%;}
+	.table-4-7{width: 55.143%;}.table-3-7{width: 40.857%;}
+	.table-2-7{width: 26.571%;}.table-1-7{width: 12.286%;}
+	.table-4-6{width: 64.666%;}
+
+	.puloT-12-12,.puloT-11-11,.puloT-10-10,.puloT-9-9,.puloT-8-8,.puloT-7-7,.puloT-6-6,.puloT-5-5,.puloT-4-4,.puloT-3-3,.puloT-2-2,.puloT-1-1{width: 98%;}
+	.puloT-9-12,.puloT-6-8,.puloT-3-4{margin-left: 75%;}
+	.puloT-6-12,.puloT-5-10,.puloT-4-8,.puloT-3-6,.puloT-2-4,.puloT-1-2{margin-left: 50%;}
+	.puloT-3-12,.puloT-2-8,.puloT-1-4{margin-left: 25%;}
+	.puloT-11-12{margin-left: 91.666%;}.puloT-10-12,.puloT-5-6{margin-left: 83.333%;}
+	.puloT-8-12,.puloT-2-3{margin-left:66.666%;}.puloT-7-12{margin-left: 58.333%;}
+	.puloT-5-12{margin-left: 41.666%;}.puloT-4-12,.puloT-2-6,.puloT-3-9,.puloT-1-3{margin-left:33.333%;}
+	.puloT-2-12,.puloT-1-6{margin-left: 16.666%;}.puloT-1-12{margin-left: 8.333%;}
+	.puloT-10-11{margin-left: 90.909%;}.puloT-9-11{margin-left: 81.818%;}
+	.puloT-8-11{margin-left: 72.727%;}.puloT-7-11{margin-left: 63.636%;}
+	.puloT-6-11{margin-left: 54.545%;}.puloT-5-11{margin-left: 45.454%;}
+	.puloT-4-11{margin-left: 36.363%;}.puloT-3-11{margin-left: 27.272%;}
+	.puloT-2-11{margin-left: 18.181%;}.puloT-1-11{margin-left: 9.090%;}
+	.puloT-9-10{margin-left: 90%;}.puloT-8-10,.puloT-4-5{margin-left: 80%;}
+	.puloT-7-10{margin-left: 70%;}.puloT-6-10,.puloT-3-5{margin-left: 60%;}
+	.puloT-4-10,.puloT-2-5{margin-left: 40%;}.puloT-3-10{margin-left: 30%;}
+	.puloT-2-10,.puloT-1-5{margin-left: 20%;}
+	.puloT-1-10{margin-left: 10%;}
+	.puloT-8-9{margin-left: 88.888%;}.puloT-7-9{margin-left: 77.777%;}
+	.puloT-6-9{margin-left: 66.666%;}.puloT-5-9{margin-left: 55.555%;}
+	.puloT-4-9{margin-left: 44.444%;}.puloT-2-9{margin-left: 22.222%;}
+	.puloT-1-9{margin-left: 11.111%;}
+	.puloT-7-8{margin-left: 87.5%;}
+	.puloT-5-8{margin-left: 62.5%;}.puloT-3-8{margin-left: 37.5%;}
+	.puloT-1-8{margin-left: 12.5%;}
+	.puloT-6-7{margin-left: 85.714%;}.puloT-5-7{margin-left: 71.428%;}
+	.puloT-4-7{margin-left: 57.143%;}.puloT-3-7{margin-left: 42.857%;}
+	.puloT-2-7{margin-left: 28.571%;}.puloT-1-7{margin-left: 14.286%;}
+	.puloT-4-6{margin-left: 66.666%;}
+}
+
+@media only screen and (min-width: 5px) and (max-width: 438px){
+	.smart-1-12,.smart-2-12,.smart-3-12,.smart-4-12,.smart-5-12,.smart-6-12,.smart-7-12,.smart-8-12,.smart-9-12,.smart-10-12,.smart-11-12,.smart-12-12,
+	.smart-1-11,.smart-2-11,.smart-3-11,.smart-4-11,.smart-5-11,.smart-6-11,.smart-7-11,.smart-8-11,.smart-10-11,.smart-11-11,
+	.smart-1-10,.smart-2-10,.smart-3-10,.smart-4-10,.smart-5-10,.smart-6-10,.smart-7-10,.smart-8-10,.smart-9-10,.smart-10-10,
+	.smart-1-9,.smart-2-9.smart-3-9,.smart-4-9,.smart-5-9,.smart-6-9,.smart-7-9,.smart-8-9,.smart-9-9,
+	.smart-1-8,.smart-2-8,.smart-3-8,.smart-4-8,.smart-5-8,.smart-6-8,.smart-6-8,.smart-7-8,.smart-8-8,
+	.smart-1-7,.smart-2-7.smart-3-7,.smart-4-7,.smart-5-7.smart-6-7,.smart-7-7,
+	.smart-1-6,.smart-2-6,.smart-3-6,.smart-4-6,.smart-5-6,.smart-6-6,
+	.smart-1-5,.smart-2-5,.smart-3-5,.smart-4-5,.smart-5-5,
+	.smart-1-4,.smart-2-4,.smart-3-4,.smart-4-4,
+	.smart-1-3,.smart-2-3,.smart-3-3,
+	.smart-1-2,.smart-2-2,
+	.smart-1-1{
+		display: inline-block;
+		float: left !important;
+		margin-right: 0.5%;
+		margin-left: 0.5%;
+		max-width: 100%;
+		font-size: 1.1em;
+		margin-top: 1.5px;
+		text-align: center;
+	}
+
+	.smart-12-12,.smart-11-11,.smart-10-10,.smart-9-9,.smart-8-8,.smart-7-7,.smart-6-6,.smart-5-5,.smart-4-4,.smart-3-3,.smart-2-2,.smart-1-1{width: 98%;}
+	.smart-9-12,.smart-6-8,.smart-3-4{width: 74%;}
+	.smart-6-12,.smart-5-10,.smart-4-8,.smart-3-6,.smart-2-4,.smart-1-2{width: 49%;}
+	.smart-3-12,.smart-2-8,.smart-1-4{width: 24%;}
+	.smart-11-12{width: 90.666%;}.smart-10-12,.smart-5-6{width: 82.333%;}
+	.smart-8-12,.smart-2-3{width:65.666%;}.smart-7-12{width: 57.333%;}
+	.smart-5-12{width: 40.666%;}.smart-4-12,.smart-2-6,.smart-3-9,.smart-1-3{width:32.333%;}
+	.smart-2-12,.smart-1-6{width: 15.666%;}.smart-1-12{width: 7.333%;}
+	.smart-10-11{width: 89.909%;}.smart-9-11{width: 80.818%;}
+	.smart-8-11{width: 71.727%;}.smart-7-11{width: 62.636%;}
+	.smart-6-11{width: 53.545%;}.smart-5-11{width: 44.454%;}
+	.smart-4-11{width: 35.363%;}.smart-3-11{width: 26.272%;}
+	.smart-2-11{width: 17.181%;}.smart-1-11{width: 8.090%;}
+	.smart-9-10{width: 89%;}.smart-8-10,.smart-4-5{width: 79%;}
+	.smart-7-10{width: 69%;}.smart-6-10,.smart-3-5{width: 59%;}
+	.smart-4-10,.smart-2-5{width: 39%;}.smart-3-10{width: 29%;}
+	.smart-2-10,.smart-1-5{width: 19%;}
+	.smart-1-10{width: 9%;}
+	.smart-8-9{width: 87.888%;}.smart-7-9{width: 76.777%;}
+	.smart-6-9{width: 65.666%;}.smart-5-9{width: 54.555%;}
+	.smart-4-9{width: 43.444%;}.smart-2-9{width: 21.222%;}
+	.smart-1-9{width: 10.111%;}
+	.smart-7-8{width: 86.5%;}
+	.smart-5-8{width: 61.5%;}.smart-3-8{width: 36.5%;}
+	.smart-1-8{width: 11.5%;}
+	.smart-6-7{width: 84.714%;}.smart-5-7{width: 70.428%;}
+	.smart-4-7{width: 56.143%;}.smart-3-7{width: 41.857%;}
+	.smart-2-7{width: 27.571%;}.smart-1-7{width: 13.286%;}
+	.smart-4-6{width: 65.666%;}
+
+	.puloS-12-12,.puloS-11-11,.puloS-10-10,.puloS-9-9,.puloS-8-8,.puloS-7-7,.puloS-6-6,.puloS-5-5,.puloS-4-4,.puloS-3-3,.puloS-2-2,.puloS-1-1{width: 98%;}
+	.puloS-9-12,.puloS-6-8,.puloS-3-4{margin-left: 75%;}
+	.puloS-6-12,.puloS-5-10,.puloS-4-8,.puloS-3-6,.puloS-2-4,.puloS-1-2{margin-left: 50%;}
+	.puloS-3-12,.puloS-2-8,.puloS-1-4{margin-left: 25%;}
+	.puloS-11-12{margin-left: 91.666%;}.puloS-10-12,.puloS-5-6{margin-left: 83.333%;}
+	.puloS-8-12,.puloS-2-3{margin-left:66.666%;}.puloS-7-12{margin-left: 58.333%;}
+	.puloS-5-12{margin-left: 41.666%;}.puloS-4-12,.puloS-2-6,.puloS-3-9,.puloS-1-3{margin-left:33.333%;}
+	.puloS-2-12,.puloS-1-6{margin-left: 16.666%;}.puloS-1-12{margin-left: 8.333%;}
+	.puloS-10-11{margin-left: 90.909%;}.puloS-9-11{margin-left: 81.818%;}
+	.puloS-8-11{margin-left: 72.727%;}.puloS-7-11{margin-left: 63.636%;}
+	.puloS-6-11{margin-left: 54.545%;}.puloS-5-11{margin-left: 45.454%;}
+	.puloS-4-11{margin-left: 36.363%;}.puloS-3-11{margin-left: 27.272%;}
+	.puloS-2-11{margin-left: 18.181%;}.puloS-1-11{margin-left: 9.090%;}
+	.puloS-9-10{margin-left: 90%;}.puloS-8-10,.puloS-4-5{margin-left: 80%;}
+	.puloS-7-10{margin-left: 70%;}.puloS-6-10,.puloS-3-5{margin-left: 60%;}
+	.puloS-4-10,.puloS-2-5{margin-left: 40%;}.puloS-3-10{margin-left: 30%;}
+	.puloS-2-10,.puloS-1-5{margin-left: 20%;}
+	.puloS-1-10{margin-left: 10%;}
+	.puloS-8-9{margin-left: 88.888%;}.puloS-7-9{margin-left: 77.777%;}
+	.puloS-6-9{margin-left: 66.666%;}.puloS-5-9{margin-left: 55.555%;}
+	.puloS-4-9{margin-left: 44.444%;}.puloS-2-9{margin-left: 22.222%;}
+	.puloS-1-9{margin-left: 11.111%;}
+	.puloS-7-8{margin-left: 87.5%;}
+	.puloS-5-8{margin-left: 62.5%;}.puloS-3-8{margin-left: 37.5%;}
+	.puloS-1-8{margin-left: 12.5%;}
+	.puloS-6-7{margin-left: 85.714%;}.puloS-5-7{margin-left: 71.428%;}
+	.puloS-4-7{margin-left: 57.143%;}.puloS-3-7{margin-left: 42.857%;}
+	.puloS-2-7{margin-left: 28.571%;}.puloS-1-7{margin-left: 14.286%;}
+	.puloS-4-6{margin-left: 66.666%;}
+
+}
+
+	 
